@@ -10,5 +10,6 @@ fi
 while [ True ]
 do
 	$CMD
+	echo "Sleeping for $INTERVAL seconds..."
 	sleep $INTERVAL
 done
